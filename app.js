@@ -226,9 +226,9 @@ const products = [
   const div = document.querySelector("#div");
   
   products.map((items)=>{
-      div.innerHTML += `<h3>Item Name: ${items.brand + "" + items.name} </h3>
-      <h3> Category: ${items.category}</h3>
-      <h3> Price: ${items.price}</h3>
+      div.innerHTML += `<h3>Item Name : ${items.brand + "" + items.name} </h3>
+      <h3> Category : ${items.category}</h3>
+      <h3> Price : ${items.price}</h3>
       <hr/>`;
   })
   
@@ -240,5 +240,5 @@ const products = [
       <h3> Price: ${items.price}</h3>
       <hr/>`;
   
-     })
+     })}
   
